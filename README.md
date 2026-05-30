@@ -21,30 +21,30 @@ Each character has its own directory containing numbered `.webp` files (`0.webp`
 
 | Letter | Variants | Letter | Variants | Letter | Variants |
 | ------ | -------- | ------ | -------- | ------ | -------- |
-| A      | 35       | J      | 17       | S      | 38       |
-| B      | 18       | K      | 17       | T      | 19       |
-| C      | 17       | L      | 20       | U      | 16       |
-| D      | 19       | M      | 24       | V      | 17       |
-| E      | 25       | N      | 27       | W      | 16       |
-| F      | 18       | O      | 21       | X      | 11       |
-| G      | 18       | P      | 18       | Y      | 21       |
-| H      | 16       | Q      | 15       | Z      | 18       |
-| I      | 21       | R      | 25       |        |          |
+| [A](letters/A/0.webp)      | 35       | [J](letters/J/0.webp)      | 17       | [S](letters/S/0.webp)      | 38       |
+| [B](letters/B/0.webp)      | 18       | [K](letters/K/0.webp)      | 17       | [T](letters/T/0.webp)      | 19       |
+| [C](letters/C/0.webp)      | 17       | [L](letters/L/0.webp)      | 20       | [U](letters/U/0.webp)      | 16       |
+| [D](letters/D/0.webp)      | 19       | [M](letters/M/0.webp)      | 24       | [V](letters/V/0.webp)      | 17       |
+| [E](letters/E/0.webp)      | 25       | [N](letters/N/0.webp)      | 27       | [W](letters/W/0.webp)      | 16       |
+| [F](letters/F/0.webp)      | 18       | [O](letters/O/0.webp)      | 21       | [X](letters/X/0.webp)      | 11       |
+| [G](letters/G/0.webp)      | 18       | [P](letters/P/0.webp)      | 18       | [Y](letters/Y/0.webp)      | 21       |
+| [H](letters/H/0.webp)      | 16       | [Q](letters/Q/0.webp)      | 15       | [Z](letters/Z/0.webp)      | 18       |
+| [I](letters/I/0.webp)      | 21       | [R](letters/R/0.webp)      | 25       |        |          |
 
 ### Digits
 
 | Digit | Variants |
 | ----- | -------- |
-| 0     | 9        |
-| 1     | 11       |
-| 2     | 8        |
-| 3     | 14       |
-| 4     | 24       |
-| 5     | 10       |
-| 6     | 11       |
-| 7     | 15       |
-| 8     | 9        |
-| 9     | 9        |
+| [0](letters/0/0.webp)     | 9        |
+| [1](letters/1/0.webp)     | 11       |
+| [2](letters/2/0.webp)     | 8        |
+| [3](letters/3/0.webp)     | 14       |
+| [4](letters/4/0.webp)     | 24       |
+| [5](letters/5/0.webp)     | 10       |
+| [6](letters/6/0.webp)     | 11       |
+| [7](letters/7/0.webp)     | 15       |
+| [8](letters/8/0.webp)     | 9        |
+| [9](letters/9/0.webp)     | 9        |
 
 ## Asset format
 
