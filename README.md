@@ -11,8 +11,10 @@ letters/
   ...
   Z/          # 18 variants
   0–9/        # digit variants
-  !/          # 7 variants
-  #/          # 6 variants
+  bang/       # ! — 7 variants
+  num/        # # — 6 variants
+  pct/        # % — 8 variants
+  amp/        # & — 9 variants
   ...
 ```
 
@@ -51,14 +53,32 @@ Each character has its own directory containing numbered `.webp` files (`0.webp`
 
 ### Special Characters
 
-| Char                     | Variants | Char                   | Variants | Char                   | Variants |
-| ------------------------ | -------- | ---------------------- | -------- | ---------------------- | -------- |
-| [!](letters/!/0.webp)    | 7        | [\*](letters/*/0.webp) | 6        | [?](letters/?/0.webp)  | 8        |
-| [#](letters/%23/0.webp)  | 6        | [+](letters/+/0.webp)  | 5        | [@](letters/@/0.webp)  | 3        |
-| [%](letters/%25/0.webp)  | 8        | [,](letters/,/0.webp)  | 4        | [\[](letters/[/0.webp) | 3        |
-| [&](letters/&/0.webp)    | 9        | [-](letters/-/0.webp)  | 4        | [\]](letters/]/0.webp) | 3        |
-| [(](<letters/(/0.webp)>) | 5        | [:](letters/:/0.webp)  | 3        | [^](letters/^/0.webp)  | 2        |
-| [\)](<letters/)/0.webp>) | 5        |                        |          |                        |          |
+| Char | Folder                          | Variants | Char | Folder                            | Variants | Char | Folder                              | Variants |
+| ---- | ------------------------------- | -------- | ---- | --------------------------------- | -------- | ---- | ----------------------------------- | -------- |
+| !    | [bang](letters/bang/0.webp)     | 7        | \*   | [star](letters/star/0.webp)       | 6        | ?    | [quest](letters/quest/0.webp)       | 8        |
+| #    | [num](letters/num/0.webp)       | 6        | +    | [plus](letters/plus/0.webp)       | 5        | @    | [at](letters/at/0.webp)             | 3        |
+| %    | [pct](letters/pct/0.webp)       | 8        | ,    | [comma](letters/comma/0.webp)     | 4        | \[   | [lbracket](letters/lbracket/0.webp) | 3        |
+| &    | [amp](letters/amp/0.webp)       | 9        | -    | [dash](letters/dash/0.webp)       | 4        | \]   | [rbracket](letters/rbracket/0.webp) | 3        |
+| (    | [lparen](letters/lparen/0.webp) | 5        | :    | [colon](letters/colon/0.webp)     | 3        | ^    | [caret](letters/caret/0.webp)       | 2        |
+| )    | [rparen](letters/rparen/0.webp) | 5        |      |                                   |          |      |                                     |          |
+
+## Special character folder naming
+
+Special characters use short symbolic names instead of the literal character as the folder name (e.g. `bang/` for `!`, `quest/` for `?`). This avoids URL encoding problems: characters like `?`, `#`, `%`, `(`, `)`, and `^` are reserved or unsafe in URLs and require percent-encoding when used as path segments — which causes issues in browser URLs, CDN paths, and some tooling. Plain ASCII names have no such restrictions.
+
+Full mapping:
+
+| Character | Folder     | Character | Folder      |
+| --------- | ---------- | --------- | ----------- |
+| !         | `bang`     | +         | `plus`      |
+| #         | `num`      | ,         | `comma`     |
+| %         | `pct`      | -         | `dash`      |
+| &         | `amp`      | :         | `colon`     |
+| (         | `lparen`   | ?         | `quest`     |
+| )         | `rparen`   | @         | `at`        |
+| *         | `star`     | [         | `lbracket`  |
+|           |            | ]         | `rbracket`  |
+|           |            | ^         | `caret`     |
 
 ## Asset format
 
