@@ -51,14 +51,14 @@ Each character has its own directory containing numbered `.webp` files (`0.webp`
 
 ### Special Characters
 
-| Char                    | Variants | Char                   | Variants | Char                   | Variants |
-| ----------------------- | -------- | ---------------------- | -------- | ---------------------- | -------- |
-| [!](letters/!/0.webp)   | 7        | [\*](letters/*/0.webp) | 6        | [?](letters/?/0.webp)  | 8        |
-| [#](letters/%23/0.webp) | 6        | [+](letters/+/0.webp)  | 5        | [@](letters/@/0.webp)  | 3        |
-| [%](letters/%25/0.webp) | 8        | [,](letters/,/0.webp)  | 4        | [\[](letters/[/0.webp) | 3        |
-| [&](letters/&/0.webp)   | 9        | [-](letters/-/0.webp)  | 4        | [\]](letters/]/0.webp) | 3        |
-| [(](letters/(/0.webp)   | 5        | [:](letters/:/0.webp)  | 3        | [^](letters/^/0.webp)  | 2        |
-| [)](letters/)/0.webp)   | 5        |                        |          |                        |          |
+| Char                     | Variants | Char                   | Variants | Char                   | Variants |
+| ------------------------ | -------- | ---------------------- | -------- | ---------------------- | -------- |
+| [!](letters/!/0.webp)    | 7        | [\*](letters/*/0.webp) | 6        | [?](letters/?/0.webp)  | 8        |
+| [#](letters/%23/0.webp)  | 6        | [+](letters/+/0.webp)  | 5        | [@](letters/@/0.webp)  | 3        |
+| [%](letters/%25/0.webp)  | 8        | [,](letters/,/0.webp)  | 4        | [\[](letters/[/0.webp) | 3        |
+| [&](letters/&/0.webp)    | 9        | [-](letters/-/0.webp)  | 4        | [\]](letters/]/0.webp) | 3        |
+| [\(](letters/(/0.webp)   | 5        | [:](letters/:/0.webp)  | 3        | [^](letters/^/0.webp)  | 2        |
+| [\)](<letters/\)/0.webp>) | 5        |                        |          |                        |          |
 
 ## Asset format
 
